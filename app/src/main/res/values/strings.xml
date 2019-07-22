@@ -1,21 +1,3 @@
 <resources>
     <string name="app_name">SmartLandApp</string>
-    <string name="app_name">me</string>
-    <string name="tuichumm">退出</string>
-    <string name="xingmxing">姓名 ID</string>
-    <string name="ad">下载天地图</string>
-    <string name="gd">修改密码</string>
-    <string name="sdr">核查任务</string>
-    <string name="f">关于</string>
-    <string name="yun">云查询</string>
-    <string name="me">我</string>
-    <string name="suishou">随手拍</string>
-    <string name="reutnr1">返回</string>
-    <string name="xx1">长沙天地图</string>
-    <string name="xx2">常德天地图</string>
-    <string name="password1">当前密码：</string>
-    <string name="password2">新密码：</string>
-    <string name="password4">密码提示：</string>
-    <string name="password3">确认新密码：</string>
-    <string name="sure">确认</string>
 </resources>
