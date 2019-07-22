@@ -75,6 +75,7 @@
         android:text="登录"
         android:textSize="20dp"
         android:textColor="#ffffff"
+        android:onClick="login_btn_onclick"    
         android:background="@drawable/btn_shape"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
