@@ -17,8 +17,5 @@ public class LoginActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//remove notification bar  即全屏
         setContentView(R.layout.activity_login);
     }
-    public void login_btn_onclick(View view){
-        Intent intent = new Intent(this,FirstActivity.class);
-        startActivity(intent);
-    }
+    
 }
