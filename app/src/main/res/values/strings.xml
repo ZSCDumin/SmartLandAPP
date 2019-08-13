@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">SmartLandApp</string>
+    <string name="menu_cloud">云查询</string>
+    <string name="menu_pic">随手拍</string>
+    <string name="menu_me">我</string>
+    <string name="cloud_map_change">mapChange</string>
+    <string name="cloud_range_search">范围查询</string>
+    <string name="cloud_result">查询结果</string>
+    <string name="cloud_my_loc">myLoc</string>
+    <string name="cloud_result_id">结果编号</string>
+    <string name="pic_result">拍摄结果</string>
+    <string name="me_download">下载天地图</string>
+    <string name="me_change_pwd">修改密码</string>
+    <string name="me_checktask">核查任务</string>
+    <string name="me_about">关于</string>
+    <string name="pic_pushtocloud">上传至云端</string>
+    <string name="pic_id">编号</string>
+    <string name="pic_sort">按时间排序</string>
+    <string name="bottom_tab_1">实地照片</string>
+    <string name="bottom_tab_2">实地描述</string>
+    <string name="kpmc_name">快拍名称：</string>
+    <string name="kplx_name">快拍类型：</string>
+    <string name="wyms_name">外业描述：</string>
+    <string name="return1">返回</string>
+    <string name="push">上传</string>
+    <string-array name="spingarr">
+        <item>实地调研</item>
+        <item>检查指导</item>
+        <item>农房审批</item>
+        <item>日常巡查（国土所）</item>
+        <item>日常巡查1：批后监管</item>
+        <item>日常巡查2：耕地保护</item>
+        <item>日常巡查3：整治项目跟踪</item>
+        <item>日常巡查4：土地违法巡查</item>
+        <item>日常巡查5：矿山违法巡查</item>
+        <item>日常巡查6：测量标志点巡查</item>
+        <item>其他</item>
+    </string-array>
 </resources>

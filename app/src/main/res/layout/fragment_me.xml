@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.me.FragmentMe">
+
+    <android.support.constraint.ConstraintLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:id="@+id/namelan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0">
+
+            <ImageView
+                android:id="@+id/name"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="11dp"
+                android:clickable="false"
+                android:src="@drawable/name" />
+
+            <TextView
+                android:id="@+id/name_id"
+                android:layout_width="182dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="11dp"
+                android:clickable="false"
+                android:text="姓名 ID"
+                android:textSize="35dp"
+                app:layout_constraintLeft_toRightOf="@+id/name" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/xiazailan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/xiugailan"
+            app:layout_constraintTop_toBottomOf="@+id/namelan">
+
+            <ImageView
+                android:id="@+id/xiazai"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="false"
+                android:src="@drawable/xiazai" />
+
+            <TextView
+                android:id="@+id/xiazai_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:clickable="false"
+                android:text="下载天地图"
+                android:textSize="20dp"
+                app:layout_constraintLeft_toRightOf="@+id/xiazai" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/xiugailan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/jianchalan"
+            app:layout_constraintTop_toBottomOf="@+id/xiazailan">
+
+            <ImageView
+                android:id="@+id/xiugai"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:src="@drawable/xiugai" />
+
+            <TextView
+                android:id="@+id/xiugai_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:clickable="false"
+                android:text="修改密码"
+                android:textSize="20dp"
+                app:layout_constraintLeft_toRightOf="@+id/xiugai" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/jianchalan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/guanyulan"
+            app:layout_constraintTop_toBottomOf="@id/xiugailan">
+
+            <ImageView
+                android:id="@+id/jiancha"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:src="@drawable/jiancha" />
+
+            <TextView
+                android:id="@+id/jiancha_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:clickable="false"
+                android:text="核查任务"
+                android:textSize="20dp"
+                app:layout_constraintLeft_toRightOf="@+id/jiancha" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/guanyulan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/jianchalan">
+
+            <ImageView
+                android:id="@+id/guanyu"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:src="@drawable/guanyu" />
+
+            <TextView
+                android:id="@+id/guanyu_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:clickable="false"
+                android:text="关于"
+                android:textSize="20dp"
+                app:layout_constraintLeft_toRightOf="@+id/guanyu" />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/left_btn1"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_shape"
+            android:text="退出"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

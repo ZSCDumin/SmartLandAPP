@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/kpmc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/kpmc_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/kpmc_name"
+            android:layout_weight="0.5"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/kpmc_input"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.5"
+            android:background="@android:drawable/alert_light_frame"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kplx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/kplx_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:text="@string/kplx_name"
+            android:textSize="16dp" />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:background="@android:drawable/alert_light_frame"
+            android:id="@+id/kplx_input"
+            android:ems="10"
+            android:entries="@array/spingarr"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wyms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/wyms_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:text="@string/wyms_name"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/wyms_input"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:background="@android:drawable/alert_light_frame"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:maxLines="5"
+                android:scrollHorizontally="false"
+                android:singleLine="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/left_btn1"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_shape"
+            android:text="@string/push"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.75" />
+
+    </LinearLayout>
+</RelativeLayout>
