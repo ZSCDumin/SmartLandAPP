@@ -6,9 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+=======
+import android.view.View;
+>>>>>>> f56348d2229a65488883cd4fc8bf5b2467645a6d
 
 import com.smartlandapp.R;
 import com.smartlandapp.ui.BottomMenu;
@@ -116,6 +120,10 @@ public class LoginActivity extends AppCompatActivity {
         }).start();
 
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> f56348d2229a65488883cd4fc8bf5b2467645a6d
 }
 

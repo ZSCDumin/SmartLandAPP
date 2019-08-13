@@ -55,6 +55,7 @@
 
         <activity android:name=".ui.BottomMenu">
             <intent-filter>
+<<<<<<< HEAD
                 <action android:name="com.smartlandapp.ui.BottomMenu"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
@@ -73,6 +74,13 @@
             </intent-filter>
         </activity>
 
+=======
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+>>>>>>> f56348d2229a65488883cd4fc8bf5b2467645a6d
         <activity android:name=".activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
